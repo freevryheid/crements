@@ -8,4 +8,13 @@ dec(x,y) decrements x by integer y
 
 no need to set the integer kinds, this is matched against x
 
+## Installation
+fpm build\
+fpm test\
+fpm install
+
+This uses the stdlib to reconcile integer kinds.
+
+
+
 
