@@ -1,5 +1,5 @@
 # crements
-inc or dec integers
+fortran module: inc or dec integers
 
 call inc(x) increments x by 1\
 call dec(x) decrements x by 1\
@@ -13,7 +13,8 @@ fpm build\
 fpm test\
 fpm install
 
-This uses the stdlib to reconcile integer kinds. Add as depency in fpm.toml:
+## Dependency
+This uses the stdlib to reconcile integer kinds. Add as dependency in fpm.toml:
 
 ```
 [dependencies]
