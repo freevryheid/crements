@@ -13,8 +13,14 @@ fpm build\
 fpm test\
 fpm install
 
-This uses the stdlib to reconcile integer kinds.
+This uses the stdlib to reconcile integer kinds. Add as depency in fpm.toml:
 
+```
+[dependencies]
+stdlib.git = "https://github.com/fortran-lang/stdlib"
+stdlib.branch = "stdlib-fpm"
+crements.git = "https://github.com/freevryheid/crements"
+```
 
 
 
