@@ -1,5 +1,7 @@
 # crements
-fortran module: inc or dec integers
+fortran module: inc or dec integers\
+this is an experimental module for testing generics in fortran.\
+don't us for production - it's considerably slower than regular x = x + 1, etc
 
 call inc(x) increments x by 1\
 call dec(x) decrements x by 1\
